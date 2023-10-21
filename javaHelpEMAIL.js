@@ -24,7 +24,7 @@ app.post('/submit', (req, res) => {
 
     const mailOptions = {
         from: 'your-email@example.com',
-        to: 'sparkzAgency@outlook.com', // Replace with the recipient's email
+        to: 'sparkzagency@outlook.com', // Replace with the recipient's email
         subject: 'New Client Submission',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
