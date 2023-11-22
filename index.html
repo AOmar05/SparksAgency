@@ -57,6 +57,26 @@
     <footer>
         <p>&copy; 2023 Sparkz AI Agency</p>
     </footer>
+
+    <!-- Add the Botpress WebChat script here -->
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Chat with bot",
+            "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+            "botId": "a6b1379c-c690-4886-9541-5acf480dd45f",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "a6b1379c-c690-4886-9541-5acf480dd45f",
+            "webhookId": "f058eb29-8c5e-4a59-8f4a-5ac1a12e11cf",
+            "lazySocket": true,
+            "themeName": "prism",
+            "frontendVersion": "v1",
+            "showPoweredBy": true,
+            "theme": "prism",
+            "themeColor": "#2563eb"
+        });
+    </script>
 </body>
 </html>
 
